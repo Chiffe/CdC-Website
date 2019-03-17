@@ -1,0 +1,70 @@
+.dbold {font-family:"Dosis-Bold";}
+
+.header {background:url("../img/services/header.jpg"); background-size:cover; height:220px; position:relative;}
+.header .block_opa {background-color:#fff; top:60px; width:100%; max-width:100%; opacity:0.4; height:105px; position:absolute;}
+.header .outter-wrapper {background-color:transparent; top:60px; border-top:none;}
+.header .outter-wrapper .custom_wrapper {max-width:85%; width:85%; margin:0 auto; overflow:hidden; padding:10px; position:relative;}
+.header .outter-wrapper .custom_wrapper h1 {position:absolute; left:0; right:0; text-align:center; margin:0; text-transform:uppercase; font-family:"Dosis-Semibold"; top:32px; font-size:3.7rem;}
+.header .outter-wrapper .custom_wrapper a {display:block; height:85px; width:85px;}
+.header .outter-wrapper .custom_wrapper a img {position:absolute; z-index:5;}
+
+#before_step .main_text {text-align:center; font-family:"Dosis-Medium"; margin-top:80px; margin-bottom:50px; font-size:2.9rem;}
+
+.nav_step {position:fixed; width:30px; top:270px; right:10%; z-index:1030;}
+.nav_step ul {margin:0; list-style:none;}
+.nav_step ul li:not(.separate) {border:1px solid #e30613; height:30px; border-radius:15px; padding:2px; cursor:pointer; transition:all 0.5s ease-out;}
+.nav_step ul li .step {width:24px; height:24px; border-radius:12px; color:#e30613; text-align:center; font-size:1.9rem; font-weight:bold; line-height:1; padding-top:2px; transition:all 0.5s ease-out;}
+.nav_step ul li.active .step {background-color:#e30613; color:#fff;}
+.nav_step ul li.separate {height:20px; width:2px; background-color:#e30613; left:14px; position:relative;}
+.nav_step ul li:not(.separate):hover {background-color:#e30613;}
+.nav_step ul li:not(.separate):hover .step {color:#fff;}
+
+@media (max-width:1800px) {
+    .nav_step {right:5%;}
+}
+@media (max-width:1600px) {
+    .nav_step {right:2%;}
+}
+@media (max-width:1500px) {
+    .nav_step {top:0; left:0; right:0; text-align:center; background-color:#fff; height:40px; padding:5px 0; width:100%;}
+    .nav_step ul li {display:inline-block;}
+    .nav_step ul li.separate {height:2px; width:20px; top:-6px; left:0;}
+}
+
+.block_step .row {
+    display:flex;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    align-items:center;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+}
+.block_step .dev_text {text-align:justify;}
+
+h2 {text-align:center; color:#e30613; margin-bottom:100px; font-size:4.2rem;}
+p.accroche {font-family:"Dosis-Semibold"; font-size:2.2rem; line-height:1.1; margin-bottom:30px;}
+.triangle {width:0; height:0; border-top:2em solid #fff; border-right:2em solid transparent; border-left:2em solid transparent; margin:0 auto;}
+.triangle.odd {border-top-color:#f2f2f2;}
+.img_separate {height:400px; background-size:cover; background-attachment:fixed;}
+.outter-wrapper {border-top:1px solid #d2d2d2;}
+.outter-wrapper.odd {background-color:#f2f2f2;}
+#block_contact {background-color:#e30613; cursor:pointer; color:#fff;}
+#block_contact:hover {background-color:#fff; cursor:pointer; color:#e30613;}
+#block_contact p {text-align:center; text-transform:uppercase; margin:0;}
+
+.step1 {background-image:url("../img/services/img_sepa_1.jpg");}
+.step2 {background-image:url("../img/services/img_sepa_2.jpg");}
+.step3 {background-image:url("../img/services/img_sepa_3.jpg");}
+.step4 {background-image:url("../img/services/img_sepa_4.jpg");}
+.step5 {background-image:url("../img/services/img_sepa_5.jpg");}
+.step6 {background-image:url("../img/services/img_sepa_6.jpg");}
+
+@media (max-width:1150px) {
+    .img_separate {background-attachment:scroll;}
+}

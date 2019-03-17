@@ -1,0 +1,16 @@
+.header {background:url("../img/services/header.jpg"); background-size:cover; height:220px;}
+.header .block_opa {background-color:#fff; top:60px; width:100%; max-width:100%; opacity:0.4; height:105px; position:absolute;}
+.header .outter-wrapper {background-color:transparent; top:60px; border-top:none;}
+.header .outter-wrapper .custom_wrapper {max-width:85%; width:85%; margin:0 auto; overflow:hidden; padding:10px; position:relative;}
+.header .outter-wrapper .custom_wrapper h1 {position:absolute; left:0; right:0; text-align:center; margin:0; text-transform:uppercase; font-family:"Dosis-Semibold"; top:32px; font-size:3.7rem;}
+.header .outter-wrapper .custom_wrapper a {display:block; height:85px; width:85px;}
+.header .outter-wrapper .custom_wrapper a img {position:absolute; z-index:5;}
+
+.main-block p {font-family:"Dosis-Regular"; font-size:2.1rem;}
+
+h2 {text-align:center; color:#e30613; margin-bottom:30px; font-size:3.2rem;}
+.outter-wrapper {border-top:1px solid #d2d2d2;}
+
+#block_contact {background-color:#e30613; cursor:pointer; color:#fff;}
+#block_contact:hover {background-color:#fff; cursor:pointer; color:#e30613;}
+#block_contact p {text-align:center; text-transform:uppercase; margin:0;}
